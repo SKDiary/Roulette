@@ -18,6 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\RouletteGameWeb.data" />
+    <None Include="..\RouletteGameWeb.html" />
+    <None Include="..\RouletteGameWeb.js" />
+    <None Include="..\RouletteGameWeb.wasm" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,12 +132,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <None Include="..\..\RouletteGameWeb\Emscripten\Release\RouletteGameWeb.data" />
-    <None Include="..\..\RouletteGameWeb\Emscripten\Release\RouletteGameWeb.html" />
-    <None Include="..\..\RouletteGameWeb\Emscripten\Release\RouletteGameWeb.js" />
-    <None Include="..\..\RouletteGameWeb\Emscripten\Release\RouletteGameWeb.wasm" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\RouletteGameWeb\Emscripten\Release\RouletteGameWeb.data">
+    <None Include="..\RouletteGameWeb.data">
       <Filter>ソース ファイル</Filter>
     </None>
-    <None Include="..\..\RouletteGameWeb\Emscripten\Release\RouletteGameWeb.html">
+    <None Include="..\RouletteGameWeb.html">
       <Filter>ソース ファイル</Filter>
     </None>
-    <None Include="..\..\RouletteGameWeb\Emscripten\Release\RouletteGameWeb.js">
+    <None Include="..\RouletteGameWeb.js">
       <Filter>ソース ファイル</Filter>
     </None>
-    <None Include="..\..\RouletteGameWeb\Emscripten\Release\RouletteGameWeb.wasm">
+    <None Include="..\RouletteGameWeb.wasm">
       <Filter>ソース ファイル</Filter>
     </None>
   </ItemGroup>
